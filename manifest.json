@@ -1,0 +1,25 @@
+{
+  "name": "Atlassian ♡ JetBrains",
+  "description": "Bring JetBrains IntelliJ IDEA support into Atlassian products",
+  "version": "1.0",
+  "manifest_version": 3,
+  "content_scripts": [
+    {
+      "js": ["scripts/content.js"],
+      "matches": [
+        "https://bitbucket.org/*/*/pull-requests/*"
+      ]
+    }
+  ],
+  "icons": {
+    "960": "jetbrains-icon.png"
+  },
+  "web_accessible_resources": [
+    {
+      "resources": ["jetbrains-icon.png"],
+      "matches": [
+        "https://bitbucket.org/*"
+      ]
+    }
+  ]
+}

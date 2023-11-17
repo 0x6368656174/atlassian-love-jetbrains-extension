@@ -1,0 +1,12 @@
+{
+  "name": "atlassian-love-jetbrains-extension",
+  "version": "1.0.0",
+  "description": "The Chrome extension that bring JetBrains IntelliJ IDEA support into Atlassian products",
+  "author": "Pavel Puchkov <0x6368656174@gmail.com>",
+  "license": "APACHE-2.0",
+  "devDependencies": {
+    "chrome-types": "^0.1.246",
+    "prettier": "3.1.0",
+    "typescript": "^5.2.2"
+  }
+}
